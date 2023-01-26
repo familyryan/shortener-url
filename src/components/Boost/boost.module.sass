@@ -1,0 +1,21 @@
+@import '../../sass/flex'
+@import '../../sass/variables'
+
+$image: '../../images/bg-boost-desktop.svg'
+
+.containerBoost
+ width: 100%
+ min-height: 150px
+ @include flex
+ flex-direction: column
+ background-image: url(#{$image})
+ background-color: $DarkViolet
+ background-position: left
+
+.containerBoost h2 
+ margin: .8rem
+ color: #fff
+ text-align: center
+
+.containerBoost button
+ min-width: 130px
